@@ -1,0 +1,12 @@
+# ignore compiled python 2 files
+*.pyc
+# ignore compiled python 3 files
+__pycache__
+# ignore objects and archives, anywhere in the tree.
+*.[oa]
+# ignore generated html files,
+*.html
+# except foo.html which is maintained by hand
+!foo.html
+# ignore everything under build directory
+build/
